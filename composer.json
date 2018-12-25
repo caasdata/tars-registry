@@ -1,0 +1,21 @@
+{
+  "name": "caasdata/tars-registry",
+  "description": "tars的php主控寻址相关",
+  "version":"0.1.6",
+  "authors": [
+    {
+      "name": "Chen Liang",
+      "email": "liangchen@yuewen.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.3",
+    "caasdata/tars-utils": "~0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tars\\registry\\": "src/"
+    }
+  }
+}
